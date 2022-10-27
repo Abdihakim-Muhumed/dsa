@@ -13,3 +13,10 @@ print(arr1)
 arr1.insert(6, 7)
 arr1.insert(2,8)
 print(arr1)
+
+# Traversing an array
+def traverseArray(array):
+    for element in array:
+        print(element)
+        
+traverseArray(arr1)
