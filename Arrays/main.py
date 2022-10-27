@@ -20,3 +20,12 @@ def traverseArray(array):
         print(element)
         
 traverseArray(arr1)
+
+# Accessing an element
+def accessElement(array, index):
+    if index >= len(array):
+        print("There is no element in this index!")
+    else:
+        print(array[index])
+
+accessElement(arr1, 4)
