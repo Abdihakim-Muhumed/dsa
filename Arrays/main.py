@@ -29,3 +29,12 @@ def accessElement(array, index):
         print(array[index])
 
 accessElement(arr1, 4)
+
+#finding/searching an element
+def searchArray(array,value):
+    for i in array:
+        if i == value:
+            return array.index(value)
+    return "The element does not exist in this array!"
+
+print(searchArray(arr1, 9))
