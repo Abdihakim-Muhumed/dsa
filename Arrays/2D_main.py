@@ -18,3 +18,11 @@ print(newTwoDArray)
 
 # Accessing an element of a 2D array
 print(newTwoDArray[0][1])
+
+# Traversing 2D array
+def traverseTwoDArray(array):
+    for i in range(len(array)):
+        for j in range(len(array[0])):
+            print(array[i][j])
+
+traverseTwoDArray(newTwoDArray)
