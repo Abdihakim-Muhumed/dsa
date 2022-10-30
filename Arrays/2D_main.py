@@ -15,3 +15,6 @@ print(twoDArray)
 # Inserting -  Two Dimensional Array
 newTwoDArray = np.insert(twoDArray, 1,[[1,2,3,4]], axis=1)
 print(newTwoDArray)
+
+# Accessing an element of a 2D array
+print(newTwoDArray[0][1])
