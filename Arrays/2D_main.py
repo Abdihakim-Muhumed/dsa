@@ -26,3 +26,13 @@ def traverseTwoDArray(array):
             print(array[i][j])
 
 traverseTwoDArray(newTwoDArray)
+
+# Searching 2D arrays
+def searchTwoDArray(array, value):
+    for i in range(len(array)):
+        for j in range(len(array[0])):
+            if array[i][j] == value :
+                return 'The value is located at index '+str(i) + " " +str(j)
+    return "Element not found!"
+
+print(searchTwoDArray(twoDArray, 29))
