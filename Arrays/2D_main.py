@@ -36,3 +36,8 @@ def searchTwoDArray(array, value):
     return "Element not found!"
 
 print(searchTwoDArray(twoDArray, 29))
+
+# Deleting 2D Array
+print(twoDArray)
+new2DArray = np.delete(twoDArray, 0, axis=0)
+print(new2DArray)
