@@ -52,3 +52,28 @@ print("Step 10")
 my_array.reverse()
 print(my_array)
 
+# 11. Get array buffer info
+print("Step 11")
+print(my_array.buffer_info())
+
+# 12. Check for number of occurence of an element
+print("Step 11")
+my_array.append(11)
+print(my_array.count(11))
+
+# 13. Convert array to string using toString() method
+print("Step 13")
+#print(my_array.tostring()) // removed from python 3.90 and later
+
+# 14. Convert python array to python list using tolist
+print("Step 14")
+#print(my_array.tolist())
+
+# 15. Append a string to char array using fromString( method)
+# fromstring method removed from python 3.90 and later
+
+# 16. Slice elements from an array
+print("Step 16")
+print(my_array[1:4])
+
+
