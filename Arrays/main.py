@@ -38,3 +38,7 @@ def searchArray(array,value):
     return "The element does not exist in this array!"
 
 print(searchArray(arr1, 9))
+
+# Deleting an element from the array
+arr1.remove(8)
+print(arr1)
