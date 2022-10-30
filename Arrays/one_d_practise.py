@@ -27,8 +27,28 @@ my_array.extend(my_array1)
 print(my_array)
 
 # 6. Add item from list to array using fromList
-print("Step 5")
+print("Step 6")
 tempList = [20,30,40]
 my_array.fromlist(tempList)
+print(my_array)
+
+
+# 7. Remove any array element using remove
+print("Step7")
+my_array.remove(40)
+print(my_array)
+
+# 8. Remove last element using pop
+print("Step 8")
+my_array.pop()
+print(my_array)
+
+# 9. Fetch an element with index()
+print("Step 9")
+print(my_array.index(3))
+
+# 10. Reverse a python array using reverse method
+print("Step 10")
+my_array.reverse()
 print(my_array)
 
