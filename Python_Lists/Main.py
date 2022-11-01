@@ -85,3 +85,33 @@ delimeter = '-'
 b = a.split('-')
 print(b)
 print(delimeter.join(b))
+
+# pitfalls in lists
+myList = [2,4,3,1,5,7]
+myList = myList.sort() # returns None
+print(myList)
+
+myList = [2,4,3,1,5,7]
+myList.append(10) # - adds an element
+myList.append([10]) # adds a list
+print(myList)
+
+myList = [2,4,3,1,5,7]
+sorted = myList.sort() #returns a sorted list and also changes the original list
+print(myList)
+myList = [2,4,3,1,5,7]
+#print(sorted(myList))   # Does not change the original list
+print(myList)
+
+# Similarities with Array
+# 1. Both are mutable
+# 2. Both can be indexed and iterated through
+# 3. Both can be sliced
+
+
+# Differences with array
+# 1. You can do arithmentic operations on an Array
+# 2. An Array stores same data type of items unlike a List.
+
+a=[1,2,3,4,5,6,7,8,9]
+print(a[::4])
