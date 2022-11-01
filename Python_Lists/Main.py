@@ -35,3 +35,18 @@ print(myList[0:2]) #slicing
 myList.remove('e')
 print(myList)
 
+
+# Searching for an element in the List
+myList = [18, 20, 37, 40,50,68,70]
+
+if 20 in myList:
+    print(myList.index(20))
+else:
+    print('The value is not found in the list.')
+    
+def searchList(list, value):
+    for item in list:
+        if item == value:
+            return list.index(value)
+    return 'The value is not found in the list.'
+print(searchList(myList, 100))
