@@ -50,3 +50,29 @@ def searchList(list, value):
             return list.index(value)
     return 'The value is not found in the list.'
 print(searchList(myList, 100))
+
+
+# List operations / functions
+a = [1,2,3,4]
+b =[4,5,6,7]
+c = a + b   # + for concatination
+print(c)
+
+a = [0, 1]
+a = a * 4   #  * for multiplying the list
+print(a)
+
+myList = [1,2,3,4,5,6,7,8]
+print(len(myList))
+print(max(myList))
+print(min(myList))
+print(sum(myList))
+print(sum(myList)/len(myList))# average
+
+list = []
+while (True):
+    inp = input('Enter a numbe: ')
+    if inp == 'done': break
+    list.append(float(inp))
+print(sum(list) / len(list))
+
