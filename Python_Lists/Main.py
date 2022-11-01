@@ -69,10 +69,19 @@ print(min(myList))
 print(sum(myList))
 print(sum(myList)/len(myList))# average
 
-list = []
+"""myList = []
 while (True):
     inp = input('Enter a numbe: ')
     if inp == 'done': break
-    list.append(float(inp))
-print(sum(list) / len(list))
+    myList.append(float(inp))
+print(sum(myList) / len(myList))"""
 
+# Strings and Lists
+a = 'span'
+b =  list(a)
+print(b)
+a = 'span-span1-span2'
+delimeter = '-'
+b = a.split('-')
+print(b)
+print(delimeter.join(b))
